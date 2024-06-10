@@ -88,7 +88,6 @@ class Breakout_Game:
                 self.score.update_score()
         self.score.render_scorecard()
         self.score.render_turns_left()
-
         self.clock.tick(120)
         pygame.display.flip()
 

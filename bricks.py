@@ -17,12 +17,6 @@ class Bricks(Sprite):
             self.xpos, self.ypos, self.brick_width, self.brick_height
         )
 
-    #    (
-    #         self.game_screen,
-    #         (150, 75, 0),
-    #         (self.xpos, self.ypos, self.brick_width, self.brick_height),
-    #     )
-
     def create_brick(self):
         self.brick = pygame.draw.rect(
             self.game_screen,

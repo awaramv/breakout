@@ -38,4 +38,3 @@ class Player:
     def reset_player(self):
         self.player_rect.midbottom = self.game_screen_rect.midbottom
         self.blitme()
-        # self.player_slab.blit(self.game_screen, self.player_rect)

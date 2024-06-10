@@ -100,7 +100,6 @@ class Ball(pygame.sprite.Sprite):
         ] >= self.game_screen_rect.height - 5 and not self.player.player_rect.colliderect(
             self.play_ball
         ):
-
             self.game.game_reset = True
             self.player.reset_player()
             self.reset_ball()
